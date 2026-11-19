@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Gestion des contacts V3</string>
+    <string name="titre_liste">Mes Contacts</string>
+    <string name="titre_detail">Fiche Contact</string>
+    <string name="titre_carte">Localisation GPS</string>
+
+    <!-- Recherche -->
+    <string name="hint_recherche">Rechercher par nom, prénom ou tél…</string>
+    <string name="aucun_contact">Aucun contact trouvé</string>
+    <string name="aucun_contact_filtre">Aucun contact ne correspond à votre recherche</string>
+
+    <!-- Formulaire Contact -->
+    <string name="label_nom">Nom *</string>
+    <string name="hint_nom">Ex : Dupont</string>
+    <string name="label_prenom">Prénom *</string>
+    <string name="hint_prenom">Ex : Jean</string>
+    <string name="label_telephone">Téléphone *</string>
+    <string name="hint_telephone">Ex : +33 6 12 34 56 78</string>
+    <string name="label_email">Adresse e-mail</string>
+    <string name="hint_email">Ex : jean.dupont@example.com</string>
+    <string name="label_latitude">Latitude (-90 à 90)</string>
+    <string name="hint_latitude">Ex : 48.8566</string>
+    <string name="label_longitude">Longitude (-180 à 180)</string>
+    <string name="hint_longitude">Ex : 2.3522</string>
+
+    <!-- Boutons -->
+    <string name="btn_appeler">Appeler</string>
+    <string name="btn_email">Envoyer un e-mail</string>
+    <string name="btn_voir_carte">Voir sur la carte</string>
+    <string name="btn_choisir_photo">Galerie</string>
+    <string name="btn_prendre_photo">Caméra</string>
+    <string name="btn_annuler">Annuler</string>
+    <string name="btn_enregistrer">Enregistrer</string>
+    <string name="btn_retour">Retour</string>
+
+    <!-- Messages et validations -->
+    <string name="champ_obligatoire">Ce champ est obligatoire.</string>
+    <string name="erreur_coordonnees_absentes">Ce contact n\'a pas de coordonnées GPS définies.</string>
+    <string name="erreur_coordonnees_invalides">Latitude [-90; 90] ou Longitude [-180; 180] invalide.</string>
+    <string name="erreur_telephone_invalide">Le numéro de téléphone est obligatoire.</string>
+    <string name="erreur_aucune_app_appel">Aucune application d\'appel trouvée sur l\'appareil.</string>
+    <string name="erreur_aucune_app_mail">Aucune application de messagerie trouvée sur l\'appareil.</string>
+    <string name="succes_contact_enregistre">Contact mis à jour avec succès.</string>
+    <string name="action_annulee">Modification annulée.</string>
+</resources>
